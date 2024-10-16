@@ -1,0 +1,5 @@
+streamlit==1.25.0
+langchain==0.0.318
+langchain-community==0.0.3
+ollama==0.0.8
+pathlib==1.0.1
