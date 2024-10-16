@@ -36,10 +36,10 @@ Porter is a personalized AI assistant built using Streamlit and LangChain, desig
    ```streamlit run apps.py```
 
 ## Technologies Used
-**`Streamlit:**` Interactive web-based interface.
-**`LangChain:**` Manages AI prompts, model configuration, and chat memory.
-**`Ollama's Llama Models:**` Provides the backbone for AI responses.
-**`JSON-based Memory:**` Persistent chat history storage using local files.
+- **Streamlit:** Interactive web-based interface.
+- **LangChain:** Manages AI prompts, model configuration, and chat memory.
+- **Ollama's Llama Models:** Provides the backbone for AI responses.
+- **JSON-based Memory:** Persistent chat history storage using local files.
 
 ## Future Improvements
 Add support for document-based question answering by integrating document uploads into Porter’s memory.
