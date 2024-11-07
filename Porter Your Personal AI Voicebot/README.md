@@ -24,8 +24,8 @@ Porter is a personalized AI VoiceBot built using Streamlit and LangChain. It is 
    - Voice Input & Transcription, Records and transcribes audio input into text, adding it to the chat.
    
 ## UI Interface
-![Porter Assistant](./image-1.png)
 ![Porter Assistant](./image-2.png)
+![Porter Assistant](./image-1.png)
 
 ## How to Run
 
