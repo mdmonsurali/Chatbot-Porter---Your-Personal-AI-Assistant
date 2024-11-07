@@ -2,7 +2,7 @@
 
 Porter is a personalized AI VoiceBot built using Streamlit and LangChain. It is designed to provide concise, helpful responses to user queries. The application integrates Ollama's Llama models to deliver natural language processing capabilities, allowing users to engage in interactive conversations with a virtual assistant.
 
-![Porter Assistant](./Pipline.png)
+![Porter Assistant](./Pipeline.png)
 
 ## Features
 
