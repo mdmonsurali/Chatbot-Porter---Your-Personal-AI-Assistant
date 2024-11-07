@@ -1,12 +1,12 @@
-# Porter - Your Personal AI Assistant
+# Porter - Your Personal AI VoiceBot
 
-Porter is a personalized AI assistant built using Streamlit and LangChain, designed to provide concise, helpful responses to user queries. The application integrates Ollama's Llama models to deliver natural language processing capabilities, allowing users to engage in interactive conversations with a virtual assistant.
+Porter is a personalized AI VoiceBot built using Streamlit and LangChain. It is designed to provide concise, helpful responses to user queries. The application integrates Ollama's Llama models to deliver natural language processing capabilities, allowing users to engage in interactive conversations with a virtual assistant.
 
 ![Porter Assistant](./Pipline.png)
 
 ## Features
 
-- **Interactive Chat Interface**: Real-time chat interface built with Streamlit where users can ask questions and receive answers.
+- **Interactive VoiceBot Interface**: Real-time voice interface built with Streamlit where users can ask questions as audio and receive answers.
 - **Customizable AI Settings**: Users can select AI model versions (`llama3.1` or `llama3.2`), set the temperature for creative response variability, and limit the response token length via the sidebar.
 - **Persistent Memory**: User and assistant conversations are stored in a local JSON file using LangChain’s `FileChatMessageHistory`, allowing for persistent session history.
 - **Response Time Measurement**: Each response from Porter includes a time stamp indicating how long it took to generate the answer.
@@ -14,13 +14,14 @@ Porter is a personalized AI assistant built using Streamlit and LangChain, desig
 
 ## Files Overview
 
-1. **`app.py`**:
-   - Contains the Streamlit UI for interacting with Porter, including model selection, chat input, and chat history management.
+1. **`apps.py`**:
+   - Contains the Streamlit UI for interacting with Porter, including model selection, voice input, and voice chat history management.
    - The sidebar allows users to upload documents and adjust AI inference settings.
    
-2. **`chatbot.py`**:
-   - Houses the core logic for managing the chatbot interactions, including memory handling, model configuration, prompt setup, and LLM chain execution.
+2. **`voicebot.py`**:
+   - Houses the core logic for managing the VoiceBot interactions, including memory handling, model configuration, prompt setup, and LLM chain execution.
    - Leverages Ollama models via LangChain for robust language generation.
+   - Voice Input & Transcription, Records and transcribes audio input into text, adding it to the chat.
 
 ## How to Run
 
@@ -41,6 +42,8 @@ Porter is a personalized AI assistant built using Streamlit and LangChain, desig
 - **Streamlit:** Interactive web-based interface.
 - **LangChain:** Manages AI prompts, model configuration, and chat memory.
 - **Ollama's Llama Models:** Provides the backbone for AI responses.
+- **openai/whisper-large-v3-turbo:** It`s an STT model from whisper that converts audio into text.
+- - **Piper TTS:** It's a TTS model that converts text into audio in real time.
 - **JSON-based Memory:** Persistent chat history storage using local files.
 
 ## Future Improvements
