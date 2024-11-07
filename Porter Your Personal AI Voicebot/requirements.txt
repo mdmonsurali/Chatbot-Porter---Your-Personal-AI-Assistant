@@ -1,0 +1,8 @@
+streamlit==1.25.0
+langchain==0.0.318
+langchain-community==0.0.3
+ollama==0.0.8
+pathlib==1.0.1
+audio-recorder-streamlit==0.0.10
+torch==2.4.1
+transformer==4.44.2
