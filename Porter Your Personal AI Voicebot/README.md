@@ -46,8 +46,8 @@ Porter is a personalized AI VoiceBot built using Streamlit and LangChain. It is 
 - **Streamlit:** Interactive web-based interface.
 - **LangChain:** Manages AI prompts, model configuration, and chat memory.
 - **Ollama's Llama Models:** Provides the backbone for AI responses.
-- **openai/whisper-large-v3-turbo:** It`s an STT model from whisper that converts audio into text.
-- - **Piper TTS:** It's a TTS model that converts text into audio in real time.
+- **Openai/whisper-large-v3-turbo:** It`s an STT model from Whisper that converts audio into text.
+- **Piper TTS:** It's a TTS model that converts text into audio in real-time.
 - **JSON-based Memory:** Persistent chat history storage using local files.
 
 ## Future Improvements
